@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\title{\textbf{LaTeX Document for TeXbrain}}
+\author{AI Assistant}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is a clean and minimal LaTeX document sample optimized for the TeXbrain platform, avoiding any font size options to ensure smooth compilation.
+\end{abstract}
+
+\section{Introduction}
+TeXbrain allows you to compile LaTeX documents quickly in your browser. This template uses standard packages and default sizing to prevent missing font metrics errors.
+
+\section{Mathematical Formulas}
+Here is an inline formula: $E = mc^2$.
+
+And a displayed formula:
+\begin{equation}
+    \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+\end{equation}
+
+\section{Tables and Lists}
+\begin{itemize}
+    \item Lightweight and fast
+    \item Standard Computer Modern fonts
+    \item Compatible with online compilers
+\end{itemize}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|l|c|r|}
+        \hline
+        \textbf{Project} & \textbf{Type} & \textbf{Status} \\
+        \hline
+        Setup & Basic & Done \\
+        Compilation & Online & Success \\
+        \hline
+    \end{tabular}
+    \caption{Status Table}
+\end{table}
+
+\end{document}
